@@ -1,5 +1,7 @@
 # budget-flow-api
 
+Backend for budget control system. Allows to monitor operations with money, analytics and much more.
+
 ## Running
 
 ### Install dependencies
@@ -14,7 +16,6 @@ cp .env.example .env
 php artisan key:generate
 ```
 Change other settings where neccessary.
-#### !!! Change `ADMIN_USER_EMAIL` and `ADMIN_USER_PASSWORD`
 
 ### Generate API documentation with Scribe (optional)
 ```sh
